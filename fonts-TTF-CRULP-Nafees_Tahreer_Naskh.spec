@@ -9,6 +9,7 @@ Group:		Fonts
 Source0:	http://www.crulp.org/Downloads/localization/fonts/NafeesTahreerNaskh/%{_font_name}_v%{version}.zip
 # Source0-md5:	dfc4a1112cf1463cd90e525175146ccc
 URL:		http://www.crulp.org/software/localization/Fonts/nafeesTahreerNaskh.html
+BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
